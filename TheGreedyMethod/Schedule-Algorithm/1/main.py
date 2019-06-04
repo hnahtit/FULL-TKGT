@@ -1,14 +1,28 @@
 from collections import OrderedDict
-thisdict =	{
-  "1" : (6,8),
-  "2": (7,10),
-  "3": (5, 11),
-  "4": (13,14),
-  "5": (9,16),
-  "6": (12,18),
-  "7":(17,20),
-  "8":(15,19)
-}
+# thisdict =	{
+#   "1" : (6,8),
+#   "2": (7,10),
+#   "3": (5, 11),
+#   "4": (13,14),
+#   "5": (9,16),
+#   "6": (12,18),
+#   "7":(17,20),
+#   "8":(15,19)
+# }
+thisdict = {}
+theFile = open('data.txt','r')
+temp = []
+n = int(theFile.readline().format())
+for val in theFile.read().split():
+    temp.append(int(val))
+theFile.close()
+
+print(temp)
+m = 0
+while(m <= (n-1)*3):
+    thisdict.update({str(temp[m]): (temp[m+1],temp[m+2])})
+    m = m + 3
+
 name = [0 for i in range(len(thisdict)-1)]
 begin_val = [0 for i in range(len(thisdict)-1)]
 end_val = [0 for i in range(len(thisdict)-1)]

@@ -16,7 +16,7 @@ for i in range(n):
     for j in range(n):
         arr[i,j] = temp[k]
         k = k+1
-print(arr)
+# print(arr)
 #tao 1 mang de chua ma tran cac dinh ke
 ke = []
 for i in range(n):
@@ -27,10 +27,10 @@ for i in range(n):
     for j in range(n):
         if(arr[i,j] == 1):
             ke[i].append(j)
-            #ke[j].append(i)
 
-available = [False for i in range(n)]
-vertex = [i for i in range(n)]
+
+available = [True for i in range(n)]
+vertex = [0 for i in range(n)]
 
 def CorlorGraph():
     #khoi tao dinh dau tien duoc to mau dau tien
@@ -40,28 +40,25 @@ def CorlorGraph():
     for i in range(1,n):
         vertex[i] = -1
 
-    #mang mau co the to
-    for cr in range(n):
-        available[cr] = False
-
-
     #to mau cac dinh con lai
     for i in range(1,n):
         for j in (ke[i]):
             if(vertex[j] != -1):
-                available[vertex[j]] = True
+                available[vertex[j]] = False
 
         crz = 0
         for k in range(n):
-            if (available[k] == False):
+            if (available[k] == True):
                 break
             crz = crz + 1
         vertex[i] = crz
         for j in (ke[i]):
             if (vertex[j] != -1):
-                available[vertex[j]] = False
-
+                available[vertex[j]] = True
+for i in range(n):
+    print("ke",i,"-",ke[i])
 CorlorGraph()
+print("Cac dinh da duoc to mau: ")
 for i in range(n):
     print(i,vertex[i])
 
