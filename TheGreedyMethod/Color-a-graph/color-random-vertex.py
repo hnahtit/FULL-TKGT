@@ -1,5 +1,5 @@
 import numpy as np
-#read data from file
+import random
 #read data from file
 
 theFile = open('data.txt','r')
@@ -9,7 +9,11 @@ n = int(theFile.readline().format())
 for val in theFile.read().split():
     temp.append(int(val))
 theFile.close()
+# random_vertex = [random.randint(1,n-1) for i in range(n-1)]
+# print(random_vertex)
+random_vertex = [4,1,3,2]
 
+# print(random_vertex)
 arr = np.random.rand(n,n)
 k = 0
 for i in range(n):
@@ -40,7 +44,7 @@ def CorlorGraph():
         vertex[i] = -1
 
     #to mau cac dinh con lai
-    for i in range(1,n):
+    for i in random_vertex:
         for j in (ke[i]):
             if(vertex[j] != -1):
                 available[vertex[j]] = True
