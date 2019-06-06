@@ -11,7 +11,7 @@ for val in theFile.read().split():
 theFile.close()
 # random_vertex = [random.randint(1,n-1) for i in range(n-1)]
 # print(random_vertex)
-random_vertex = [4,1,3,2]
+random_vertex = [4,0,1,3,2]
 
 # print(random_vertex)
 arr = np.random.rand(n,n)
@@ -36,15 +36,15 @@ available = [False for i in range(n)]
 vertex = [0 for i in range(n)]
 
 def CorlorGraph():
-    #khoi tao dinh dau tien duoc to mau dau tien
-    vertex[0] = 0
+    # #khoi tao dinh dau tien duoc to mau dau tien
+    vertex[random_vertex[0]] = 0
 
     #khoi tao cac dinh con lai chua duoc to mau
-    for i in range(1,n):
+    for i in random_vertex[1:]:
         vertex[i] = -1
 
     #to mau cac dinh con lai
-    for i in random_vertex:
+    for i in random_vertex[1:]:
         for j in (ke[i]):
             if(vertex[j] != -1):
                 available[vertex[j]] = True

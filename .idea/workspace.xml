@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f05be5ff-2979-4015-ac90-5149a3a1fcbf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheGreedyMethod/Color-a-graph/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/TheGreedyMethod/Color-a-graph/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheGreedyMethod/Color-a-graph/color-random-vertex.py" beforeDir="false" afterPath="$PROJECT_DIR$/TheGreedyMethod/Color-a-graph/color-random-vertex.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.color-random-vertex">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="TKGT" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,10 +182,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.color-random-vertex" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.color-priority-vertex" />
         <item itemvalue="Python.generate-data" />
-        <item itemvalue="Python.color-random-vertex" />
         <item itemvalue="Python.main (2)" />
       </list>
     </recent_temporary>
