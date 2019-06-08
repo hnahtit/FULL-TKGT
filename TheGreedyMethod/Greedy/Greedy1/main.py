@@ -13,8 +13,6 @@ theFile.close()
 
 b = int(input("Nhap trong luong cua tui: "))
 
-for i in range(n):
-nm
 
 print(weight)
 print(value)

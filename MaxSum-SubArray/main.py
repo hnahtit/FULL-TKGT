@@ -74,6 +74,6 @@ def maxSubArraySum(arr, l, h) :
 
 print("Original array:")
 print(a)
-subSum= maxSubArraySum(a,0,len(a)-1)
+subSum= maxSubArraySum(arr,0,len(arr)-1)
 print("Max sub vector:")
 print(subSum)

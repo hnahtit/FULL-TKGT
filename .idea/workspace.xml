@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f05be5ff-2979-4015-ac90-5149a3a1fcbf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheGreedyMethod/Color-a-graph/color-random-vertex.py" beforeDir="false" afterPath="$PROJECT_DIR$/TheGreedyMethod/Color-a-graph/color-random-vertex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxSum-SubArray/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxSum-SubArray/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxSum-SubArray/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/MaxSum-SubArray/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheGreedyMethod/Greedy/Greedy1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/TheGreedyMethod/Greedy/Greedy1/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.color-random-vertex">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="TKGT" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,7 +69,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="color-priority-vertex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="generate-data (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TKGT" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,32 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TheGreedyMethod/Color-a-graph" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/KnapSack-Problem" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TheGreedyMethod/Color-a-graph/color-priority-vertex.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="color-random-vertex" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TKGT" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TheGreedyMethod/Color-a-graph" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TheGreedyMethod/Color-a-graph/color-random-vertex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/KnapSack-Problem/generate-data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TheGreedyMethod/Color-a-graph" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/MaxSub" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TheGreedyMethod/Color-a-graph/generate-data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/MaxSub/generate-data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TheGreedyMethod/Color-a-graph" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/MaxSub" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TheGreedyMethod/Color-a-graph/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/MaxSub/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +140,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TheGreedyMethod/Schedule-Algorithm/2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/KnapSack-Problem" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TheGreedyMethod/Schedule-Algorithm/2/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/KnapSack-Problem/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TKGT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MaxSum-SubArray" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MaxSum-SubArray/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,19 +176,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.generate-data (1)" />
       <item itemvalue="Python.main (2)" />
-      <item itemvalue="Python.color-random-vertex" />
       <item itemvalue="Python.generate-data" />
-      <item itemvalue="Python.color-priority-vertex" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.color-random-vertex" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.color-priority-vertex" />
+        <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.generate-data" />
         <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.generate-data (1)" />
       </list>
     </recent_temporary>
   </component>
