@@ -13,7 +13,7 @@ print(arr)
 
 with open('data.txt', 'w') as f:
     f.write(str(n))
-    for i in range(n):mai
+    for i in range(n):
         f.write("\n")
         for j in range(n):
             f.write("%d" % arr[i][j])
