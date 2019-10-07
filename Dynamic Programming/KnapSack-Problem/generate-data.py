@@ -3,7 +3,7 @@ n = int(input("Nhap so luong sample: "))
 numbers = random.sample(range(1, 20), n)
 value = random.sample(range(1, 20), n)
 #numbers.sort()
-with open('data.txt', 'w') as f:
+with open('data1.txt', 'w') as f:
     f.write(str(n))
     f.write("\n")
     for i in range(n):

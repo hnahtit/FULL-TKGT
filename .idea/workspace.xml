@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f05be5ff-2979-4015-ac90-5149a3a1fcbf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming/KnapSack-Problem/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/KnapSack-Problem/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming/KnapSack-Problem/generate-data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/KnapSack-Problem/generate-data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming/KnapSack-Problem/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/KnapSack-Problem/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming/MaxSub/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/MaxSub/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming/MaxSub/generate-data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/MaxSub/generate-data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming/MaxSub/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/MaxSub/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TKGT" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,11 +164,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MaxSum-SubArray" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/MaxSub" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MaxSum-SubArray/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/MaxSub/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,16 +179,16 @@
     </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.generate-data (1)" />
-      <item itemvalue="Python.generate-data" />
       <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.main (2)" />
-      <item itemvalue="Python.main (3)" />
+      <item itemvalue="Python.generate-data (1)" />
+      <item itemvalue="Python.generate-data" />
+      <item itemvalue="Python.test (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.generate-data" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.generate-data (1)" />
@@ -273,6 +279,16 @@
           <line>55</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Dynamic Programming/MaxSub/main.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Dynamic Programming/MaxSub/main.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -282,6 +298,8 @@
         <watch expression="available[vertex[j]]" language="Python" />
         <watch expression="available[k]" language="Python" />
         <watch expression="k" language="Python" />
+        <watch expression="f[0][i]" language="Python" />
+        <watch expression="f[1][i]" language="Python" />
       </configuration>
     </watches-manager>
   </component>

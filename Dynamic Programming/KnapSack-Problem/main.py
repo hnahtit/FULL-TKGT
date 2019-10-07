@@ -18,41 +18,49 @@ for val in theFile.readline().split():
 theFile.close()
 
 b = int(input("Nhap trong luong cua tui: "))
-
+weight.append(-1)
+value.append(-1)
 
 print("w = ",weight)
 print("c = ",value)
-print(name)
-# print(b)
 
-s = []
-# def BagBest():
-#     MaxV = [[0 for i in range(b + 1)] for j in range(n + 1)]
-#     for i in range(n+1):
-#         for l in range(b+1):
-#             MaxV[i][l] = MaxV[i][l-1]
-#             if(l > weight[i] and (MaxV[i-1][l - weight[i]]+value[i] > MaxV[i-1][l])):
-#                 MaxV[i][l] = MaxV[i-1][l-weight[i]]+value[i]
-#                 s.append(i)
-#     return MaxV[n][b]
-
-def knapSack(b, wt, val, n):
-    K = [[0 for x in range(b + 1)] for x in range(n + 1)]
+def knapSack(b, weight, val, n):
+    K = [[0 for x in range(b+1)] for x in range(n+1)]
 
     # Build table K[][] in bottom up manner
-    for i in range(n + 1):
-        for l in range(b + 1):
-            if i == 0 or l == 0:
-                K[i][l] = 0
-            elif wt[i - 1] <= l:
-                K[i][l] = max(val[i - 1] + K[i - 1][l - wt[i - 1]], K[i - 1][l])
+    for i in range(n+1):
+        for w in range(b+1):
+            if i == 0 or w == 0:
+                K[i][w] = 0
+            elif w < weight[i]: #w :1->19
+                #phuong an toi uu la chon phuong an toi uu cua thang ben tren no
+                K[i][w] = K[i - 1][w]
             else:
-                K[i][l] = K[i - 1][l]
-                s.append(i)
+                K[i][w] = max(K[i - 1][w], val[i] + K[i - 1][w - weight[i]])
 
     return K[n][b],K
 
+
+for i in range(n,0,-1):
+    weight[i] = weight[i-1]
+    value[i] = value[i-1]
+
 a, MaxV = knapSack(b,weight,value,n)
-# print(MaxV)
+
+S = []
+Sum = 0
+w = b
+i = n
+while(w>1):
+        if(MaxV[i][w]  - value[i] == MaxV[i-1][w-weight[i]]):
+            S.append(i)
+            Sum = Sum + weight[i]
+            w = w - weight[i]
+            i = i - 1
+        else:
+            i = i - 1
+
+
 for row in MaxV:
     print(row)
+print(Sum,'\n',S)
