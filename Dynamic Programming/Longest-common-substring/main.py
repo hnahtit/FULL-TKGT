@@ -10,7 +10,6 @@ def LCS(x,y,m,n):
     #n dai string 2
     K = [[0 for x in range(n + 1)] for x in range(m + 1)]
     for i in range(1,m + 1):
-        t = 0
         for j in range(1,n + 1):
             if x[i - 1] == y[j - 1]:
                 K[i][j] = K[i - 1][j - 1] + 1
